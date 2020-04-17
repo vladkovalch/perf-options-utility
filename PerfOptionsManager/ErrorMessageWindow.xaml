@@ -1,0 +1,30 @@
+﻿<metro:MetroWindow x:Class="PerfOptionsManager.ErrorMessageWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:metro="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:local="clr-namespace:PerfOptionsManager"
+        mc:Ignorable="d"
+        Title="Error" Height="111.878" Width="335.463"
+        ResizeMode="NoResize" KeyDown="OnKeyDownHandler"
+        Icon="./Resources/Icon/icon.png">
+
+    <Grid>
+        <Label Content="{Binding ErrorMessage, Mode = TwoWay}" 
+               HorizontalContentAlignment="Left" 
+               HorizontalAlignment="Center" 
+               VerticalAlignment="Top" 
+               
+               Margin="10,10,10,0" 
+               Width="309" Height="36"/>
+
+        <Button Content="Ok" 
+                HorizontalAlignment="Right"
+                VerticalAlignment="Bottom"
+                Margin="0 0 5px 5px" 
+                Width="75" 
+                Click="Button_Click"/>
+
+    </Grid>
+</metro:MetroWindow>
