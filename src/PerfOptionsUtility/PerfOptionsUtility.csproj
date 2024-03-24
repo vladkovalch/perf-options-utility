@@ -10,11 +10,11 @@
   <PropertyGroup>
     <Version>1.1.0</Version>
     <Authors>Vlad K</Authors>
-    <ApplicationIcon>Resources\Icon\icon.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\Icons\icon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <Resource Include="Resources\Icon\icon.png" />
+    <Resource Include="Resources\Icons\icon.png" />
   </ItemGroup>
 
   <ItemGroup>
