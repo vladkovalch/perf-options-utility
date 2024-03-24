@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PerfOptionsManager.Properties
+namespace PerfOptionsUtility.Properties
 {
 
 
