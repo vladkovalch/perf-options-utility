@@ -10,7 +10,7 @@
     Height="130"
     MaxWidth="430"
     MaxHeight="130"
-    Icon="./Resources/Icon/icon.png"
+    Icon="./Resources/Icons/icon.png"
     KeyDown="OnKeyDownHandler"
     ResizeMode="CanMinimize"
     ShowMaxRestoreButton="False"

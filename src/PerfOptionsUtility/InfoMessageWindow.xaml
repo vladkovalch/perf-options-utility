@@ -9,7 +9,7 @@
     Title="INFO"
     Width="335"
     Height="125"
-    Icon="./Resources/Icon/icon.png"
+    Icon="./Resources/Icons/icon.png"
     KeyDown="OnKeyDownHandler"
     ResizeMode="NoResize"
     ShowMaxRestoreButton="False"
