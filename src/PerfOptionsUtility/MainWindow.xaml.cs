@@ -71,7 +71,7 @@ namespace PerfOptionsUtility
 
                 var operationResult = registryHelper.GenerateRegistryFileForPerfOptions(filePath, fileName, perfOptions);
 
-                ShowInfoMessageDialog($"The registry file has been created successfully and saved on your Desktop.");
+                ShowInfoMessageDialog($"The .reg file has been successfully created and saved to your Desktop.");
             }
             catch (ArgumentException)
             {
